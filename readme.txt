@@ -3,10 +3,9 @@ This is a wikipedia graph search. Each article represents one node in the Graph,
 We used a bag of words approach to determindes semantic relation between articles.
 
 Overview of tested Wikipedia files:
-128M	"kill-host.xml" 		
-2,1M	"wikipedia-love.xml"
-436K	"wikipedia-liebe.xml"
-21M		"Wikipedia-cornell.xml"
+128M  "kill-host.xml" 		
+2,1M  "wikipedia-love.xml"
+436K  "wikipedia-liebe.xml"
 
 Execute:	-mpirun -machinefile ../machine_file ./main <filename>
 
