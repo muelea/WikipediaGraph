@@ -1,8 +1,14 @@
-Übersicht Wikipedia-files:
-	sehr klein: "wikipedia-liebe.xml"
-	klein: 		"wikipedia-love.xml"
-	mittel:		"Wikipedia-cornell.xml"
-	groß:		"kill-host.xml"
+This is a wikipedia graph search. Each article represents one node in the Graph, links on the page are represented as nodes.
 
-Ausführen mit:
-	-mpirun -machinefile ../machine_file ./main <filename>
+We used a bag of words approach to determindes semantic relation between articles.
+
+Overview of tested Wikipedia files:
+128M	"kill-host.xml" 		
+2,1M	"wikipedia-love.xml"
+436K	"wikipedia-liebe.xml"
+21M		"Wikipedia-cornell.xml"
+
+Execute:	-mpirun -machinefile ../machine_file ./main <filename>
+
+This project was part of the Algorithm Engineering course at Friedrich Schiller University Jena.
+http://theinf2.informatik.uni-jena.de/Lectures/Algorithm+Engineering.html
